@@ -11,7 +11,7 @@ public:
             {
                 return mid;
 
-            } else if (arr[mid-1]<arr[mid])
+            } else if (arr[mid-1]<arr[mid]) // for right side search bcz element is smaller than mid mtlb bada element khi right me exist karega 
             {
                 start = mid +1;
             }
