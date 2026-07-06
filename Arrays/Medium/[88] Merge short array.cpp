@@ -8,7 +8,7 @@ public:
         // merging algo
         if (A[i] >= B [j]){
             A[index--]= A[i--];
-
+         
         }
         else {
             A[index -- ]=B[j--];
