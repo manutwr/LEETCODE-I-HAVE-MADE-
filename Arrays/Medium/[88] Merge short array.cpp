@@ -5,7 +5,7 @@ public:
         while (i>=0 && j>=0){
 
         
-        
+        // merging algo
         if (A[i] >= B [j]){
             A[index--]= A[i--];
 
