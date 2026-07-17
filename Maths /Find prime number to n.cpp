@@ -4,7 +4,7 @@ public:
        vector <bool> isPrime(n+1,  true );
        int count = 0; // initialise count with 0
       
-     for (int i = 2 ; i<n ; i++){
+     for (int i = 2 ; i<n ; i++){ // loop for cheacking prime 
         if (isPrime [i]){
             count ++;
 
