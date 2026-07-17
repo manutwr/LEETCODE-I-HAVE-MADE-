@@ -2,7 +2,7 @@ class Solution {
 public:
     int countPrimes(int n) {
        vector <bool> isPrime(n+1,  true );
-       int count = 0;
+       int count = 0; // initialise count with 0
       
      for (int i = 2 ; i<n ; i++){
         if (isPrime [i]){
