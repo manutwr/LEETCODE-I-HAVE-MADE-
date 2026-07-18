@@ -15,9 +15,9 @@ public:
         }
         return ans;
     }
-    bool isPalindrome (int n ){
-        if (n<0) return false ;
-        int ans = reverse (n);
-        return n == ans ;
+    bool isPalindrome (int n ){ // reversing integer 
+        if (n<0) return false ; // agar reverse y original -ve hai 
+        int ans = reverse (n); // to ans me reverse daal do 
+        return n == ans ; // aur n ko answer ke barabar kar do
     }
 };
