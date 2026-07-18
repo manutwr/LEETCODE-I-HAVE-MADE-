@@ -7,8 +7,8 @@ public:
         while(x!=0) // agar x zero ke barabar nahi hai
         {
             
-            rem = x%10;
-            x/=10;
+            rem = x%10; // remainder 
+            x/=10; // x= x/10
             if(ans>INT_MAX/10 || ans<INT_MIN/10)
             return 0 ;
             ans = ans*10+rem;
