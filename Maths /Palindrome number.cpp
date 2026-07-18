@@ -9,9 +9,9 @@ public:
             
             rem = x%10; // remainder 
             x/=10; // x= x/10
-            if(ans>INT_MAX/10 || ans<INT_MIN/10)
-            return 0 ;
-            ans = ans*10+rem;
+            if(ans>INT_MAX/10 || ans<INT_MIN/10)// for oeverflow of integer 
+            return 0 ; // agar integer over flow h to 0 return kar do
+            ans = ans*10+rem; // digits 
         }
         return ans;
     }
