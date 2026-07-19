@@ -1,9 +1,9 @@
 class Solution {
 public:
-     void reverse (vector <int> & arr, int i, int j){
-        while (i<j){
-            swap ( arr[i], arr[j]);
-            i++ ;
+     void reverse (vector <int> & arr, int i, int j){  
+        while (i<j){  // checking .....
+            swap ( arr[i], arr[j]); // swap i and j
+            i++ ; 
             j--;
         }
      }
