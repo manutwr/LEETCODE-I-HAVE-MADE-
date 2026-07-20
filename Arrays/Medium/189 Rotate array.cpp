@@ -3,7 +3,7 @@ public:
      void reverse (vector <int> & arr, int i, int j){  
         while (i<j){  // checking .....
             swap ( arr[i], arr[j]); // swap i and j
-            i++ ; // iko ++
+            i++ ; // i ko ++
             j--;// j ko -- kro
         }
      }
