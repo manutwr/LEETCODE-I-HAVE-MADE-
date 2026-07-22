@@ -4,7 +4,7 @@ public:
         int k = 0; // Pointer for the next non-val element
         
         for (int i = 0; i < nums.size(); i++) {
-            if (nums[i] != val) {
+            if (nums[i] != val) { // agar value not equal to i
                 nums[k] = nums[i];
                 k++;
             }
