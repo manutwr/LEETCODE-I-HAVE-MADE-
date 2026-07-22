@@ -5,7 +5,7 @@ public:
         
         for (int i = 0; i < nums.size(); i++) {
             if (nums[i] != val) { // agar value not equal to i
-                nums[k] = nums[i];
+                nums[k] = nums[i]; //  k me i ko daal do
                 k++;
             }
         }
