@@ -32,14 +32,14 @@ public:
         int startRow = 0, endRow = m - 1; 
 
         while (startRow <= endRow) {
-            int midRow = startRow + (endRow - startRow) / 2;
+            int midRow = startRow + (endRow - startRow) / 2; //formula for mid row finding 
 
             // Check if the target lies within the current row's range
             if (target >= matrix[midRow][0] && target <= matrix[midRow][n - 1]) { // agar target mid row me hai 
                 return searchInRow(matrix, target, midRow); // to uper wale function ko call do
             } 
             else if (target > matrix[midRow][n - 1]) {// agar target neeche hai mtlb bada hai to iska loop
-                startRow = midRow + 1;
+                startRow = midRow + 1; // row ko mid+
             } 
             else {
                 endRow = midRow - 1; // agar target chhota hai mtlb neeche hai;
