@@ -39,7 +39,7 @@ public:
                 return searchInRow(matrix, target, midRow); // to uper wale function ko call do
             } 
             else if (target > matrix[midRow][n - 1]) {// agar target neeche hai mtlb bada hai to iska loop
-                startRow = midRow + 1; // row ko mid+
+                startRow = midRow + 1; // row ko mid+ 1 se badhao
             } 
             else {
                 endRow = midRow - 1; // agar target chhota hai mtlb neeche hai;
