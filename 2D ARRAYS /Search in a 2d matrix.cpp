@@ -5,14 +5,14 @@ public:
 
         int r = 0, c =n-1;  // oo se start kia aur n-1 ko pe row and column ko kia
         while (r<m && c>=0){ // hile loop
-            if (target == mat [r][c]){
-                return true;
+            if (target == mat [r][c]){ // agar target mid hai to
+                return true; 
             }
-            else if (target > mat [r][c]){
+            else if (target > mat [r][c]){ // agar target bada hai mid se to 
                 r++;
             }
             else{
-                c--;
+                c--; // agar target chhota hai mid se to
             }
         }
         return false;
