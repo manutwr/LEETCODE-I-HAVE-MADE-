@@ -19,6 +19,6 @@ public:
                 end = mid -1; //end ko mid -1 kr do
             }
         }
-        return -1;
+        return -1; // jab kuch na mile to -1 return kr do
     }
 };
