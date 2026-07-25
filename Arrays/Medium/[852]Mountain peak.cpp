@@ -16,7 +16,7 @@ public:
                 start = mid +1; // seaerrch in right side of array 
             }
             else{
-                end = mid -1;
+                end = mid -1; //end ko mid -1 kr do
             }
         }
         return -1;
