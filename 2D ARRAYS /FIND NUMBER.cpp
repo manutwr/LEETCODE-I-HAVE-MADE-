@@ -7,7 +7,7 @@ private:
         int st = 0, end = n - 1;
 
         while (st <= end) {
-            int mid = st + (end - st) / 2;
+            int mid = st + (end - st) / 2; // MID KA FORMULA
 
             if (mat[row][mid] == target) { // agar mid row me hai target to 
                 return true;
