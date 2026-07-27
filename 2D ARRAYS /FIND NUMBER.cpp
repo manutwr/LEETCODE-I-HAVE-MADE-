@@ -13,7 +13,7 @@ private:
                 return true;
             } 
             else if (mat[row][mid] < target) { // agar target bada hai mid row se 
-                st = mid + 1;
+                st = mid + 1; // start kro mid +1 swe;
             } 
             else {
                 end = mid - 1; // agar target chhota hai mid row se 
