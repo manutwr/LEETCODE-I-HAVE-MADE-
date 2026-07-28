@@ -29,7 +29,7 @@ public:
         if (m == 0) return false;
         int n = matrix[0].size(); // column 
 
-        int startRow = 0, endRow = m - 1; 
+        int startRow = 0, endRow = m - 1; // staeting andending o row
 
         while (startRow <= endRow) {
             int midRow = startRow + (endRow - startRow) / 2; //formula for mid row finding 
