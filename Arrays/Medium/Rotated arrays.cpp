@@ -4,7 +4,7 @@ public:
         int st = 0, end  = nums.size() - 1;
      // low is start and high is end
         while (st <= end) {
-            int mid = st + (end - st) / 2;
+            int mid = st + (end - st) / 2; // mid calculation
 
             if (nums[mid] == target) {
                 return mid;
