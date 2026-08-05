@@ -6,7 +6,7 @@ public:
         while (st <= end) {
             int mid = st + (end - st) / 2; // mid calculation
 
-            if (nums[mid] == target) {
+            if (nums[mid] == target) { // if mid is eqals to target
                 return mid;
             }
 
