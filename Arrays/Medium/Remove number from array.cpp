@@ -7,7 +7,7 @@ public:
             if (nums[i] != val) { // agar value not equal to i
                 nums[k] = nums[i]; //  k me i ko daal do
                 k++;
-            }
+            } 
         }
         
         return k; // k represents the number of elements not equal to val
