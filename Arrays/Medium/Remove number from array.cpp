@@ -3,7 +3,7 @@ public:
     int removeElement(vector<int>& nums, int val) {
         int k = 0; // Pointer for the next non-val element
         
-        for (int i = 0; i < nums.size(); i++) {
+        for (int i = 0; i < nums.size(); i++) {c 
             if (nums[i] != val) { // agar value not equal to i
                 nums[k] = nums[i]; //  k me i ko daal do
                 k++;
