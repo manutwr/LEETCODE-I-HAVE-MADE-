@@ -7,7 +7,7 @@ public:
             j--;// j ko -- kro
         }
      }
-
+ 
     void rotate(vector<int>& arr, int k) {
         int n = arr.size(); // n hoga aray size ke barabar
         k= k%n;  // overflow nah ho code baar baar rotate h ho array ni to woh fir se vaisa hi bn jayega jaisa phle tha 
