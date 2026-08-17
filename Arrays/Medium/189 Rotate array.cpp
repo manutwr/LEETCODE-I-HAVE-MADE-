@@ -4,7 +4,7 @@ public:
         while (i<j){  // checking .....
             swap ( arr[i], arr[j]); // swap i and j
             i++ ; // i ko ++ 
-            j--;// j ko -- kro
+            j--;// j ko -- kro 
         }
      }
  
