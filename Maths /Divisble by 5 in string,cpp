@@ -1,0 +1,14 @@
+class Solution {
+public:
+    bool divisibleBy5(string &n) {
+       
+        char lastChar = n.back();
+
+        
+        if (lastChar == '0' || lastChar == '5') {
+            return true;
+        }
+
+        return false;
+    }
+};
