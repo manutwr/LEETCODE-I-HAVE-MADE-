@@ -6,7 +6,7 @@ class Solution {
         
         for (int val : nums){
             cs= cs+val;
-            ms= max(cs,ms);
+            ms= max(cs,ms); 
             if (cs<0){
             cs=0;
             }
