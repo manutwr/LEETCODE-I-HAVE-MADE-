@@ -8,7 +8,7 @@ public:
             if (target == mat [r][c]){ // agar target mid hai to
                 return true;   
             }
-            else if (target > mat [r][c]){ // agar target bada hai mid se to 
+            else if (target > mat [r][c]){ // agar target bada hai mid se to     
                 r++;
             }
             else{
