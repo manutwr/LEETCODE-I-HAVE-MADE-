@@ -9,7 +9,7 @@ private:
         while (st <= end) {
             int mid = st + (end - st) / 2; // MID KA FORMULA
 
-            if (mat[row][mid] == target) { // agar mid row me hai target to 
+            if (mat[row][mid] == target) { // agar mid row me hai target to  
                 return true;
             } 
             else if (mat[row][mid] < target) { // agar target bada hai mid row se 
