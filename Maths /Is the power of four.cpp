@@ -12,6 +12,6 @@ public:
         }
 
     
-        return n == 1; // if not any output then return 1 
+        return n == 1; // if not any output then return 1 ;
     }
 };
