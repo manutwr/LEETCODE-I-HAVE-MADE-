@@ -8,7 +8,7 @@ public:
 
        
         while (n % 4 == 0) { // while lop to cheaking the divisbliy by two
-            n = n / 4; // n ko 4 se devide krke lopp me daal do agar divide hne ke baad ek sbs chhota hissa 2 se divible ho gyaa to 4 ki power hai
+            n = n / 4; // n ko 4 se devide  krke lopp me daal do agar divide hne ke baad ek sbs chhota hissa 2 se divible ho gyaa to 4 ki power hai
         }
 
     
