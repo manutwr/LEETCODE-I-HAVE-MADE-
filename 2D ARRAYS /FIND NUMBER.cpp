@@ -5,7 +5,7 @@ private:
     bool searchInRow(const vector<vector<int>>& mat, int target, int row) { // ye hai for colling fnction of binary search of an array jb matrix ka ek part solve krna rhegaa
         int n = mat[0].size();//  
         int st = 0, end = n - 1;  
-
+    
         while (st <= end) {
             int mid = st + (end - st) / 2; // MID KA FORMULA
 
