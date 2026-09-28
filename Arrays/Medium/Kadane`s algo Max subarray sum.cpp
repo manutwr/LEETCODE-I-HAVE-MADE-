@@ -8,7 +8,7 @@ class Solution {
             cs= cs+val;
             ms= max(cs,ms); 
             if (cs<0){
-            cs=0;
+            cs=0;   
             }
         } 
         return ms;
