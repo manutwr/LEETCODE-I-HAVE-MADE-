@@ -8,7 +8,7 @@ public:
         if (isPrime [i]){// cheacking if prime or not 
             count ++;
 
-            for (int j = i*2;  j<n ; j+=i){
+            for (int j = i*2;  j<n ; j+=i){  
                 isPrime [j]= false;
             }
         }
