@@ -11,7 +11,7 @@ public:
             }
 
             if (nums[st] <= nums[mid]) { 
-                if (nums[st] <= target && target < nums[mid]) {
+                if (nums[st] <= target && target < nums[mid]) {  
                     end = mid - 1; // start mid _1 b
                 } else {
                     st = mid + 1; // start mid + 1
