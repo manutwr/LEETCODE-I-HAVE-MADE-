@@ -12,7 +12,7 @@ public:
 
             if (nums[st] <= nums[mid]) { 
                 if (nums[st] <= target && target < nums[mid]) {
-                    end = mid - 1;
+                    end = mid - 1; // start mid _1 
                 } else {
                     st = mid + 1; // start mid + 1
                 }
