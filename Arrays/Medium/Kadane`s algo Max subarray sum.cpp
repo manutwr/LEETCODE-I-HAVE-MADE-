@@ -4,7 +4,7 @@ class Solution {
         // Code here
         int cs = 0 , ms= INT_MIN;
            
-        for (int val : nums){
+        for (int val : nums){ 
             cs= cs+val;
             ms= max(cs,ms);    
             if (cs<0){   
