@@ -16,7 +16,7 @@ public:
 
         if( A[mid -1 ]!= A [mid ] && A [mid+1]!= A [ mid ]) return A[mid];
        
-          // for odd and even 
+          // for odd and even    
           if ( mid % 2 == 0)
           if(A[mid-1 ]== A[mid]){
             end = mid -1;
